@@ -1,0 +1,16 @@
+@endpoint=http://localhost:3000
+
+###
+GET {{endpoint}} HTTP/1.1
+User-Agent: rest-client
+
+
+
+###
+GET {{endpoint}}/user/getUsers HTTP/1.1
+Content-Type: application/json
+User-Agent: rest-client
+
+
+
+
