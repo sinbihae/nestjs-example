@@ -1,0 +1,21 @@
+
+###
+GET http://localhost:3000 HTTP/1.1
+User-Agent: rest-client
+
+
+###
+GET http://localhost:3000/user/getUsers HTTP/1.1
+Content-Type: application/json
+User-Agent: rest-client
+
+
+
+###
+GET http://localhost:3000/billing/get HTTP/1.1
+Content-Type: application/json
+User-Agent: rest-client
+
+
+
+
