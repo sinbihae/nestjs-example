@@ -1,5 +1,5 @@
 import { HttpService, Injectable } from '@nestjs/common';
-import makeSignatureHeaders from '../common/crypto/crypto.service';
+import makeSignatureHeaders from '../ncc/crypto.service';
 
 @Injectable()
 export class UserService {
