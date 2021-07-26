@@ -26,7 +26,6 @@ export class KoscomService {
   }
 
   private koscomRequest(host: string, method: string, url: string, query: string) {
-      console.log("----------------"+host)
     return this.httpService
         .get(host + url + '?' + query, {
           headers: {
@@ -38,13 +37,11 @@ export class KoscomService {
         .then(
             (res) => {
               // Success
-                console.log('-----success')
               console.log(res.data);
               return res.data;
             },
             (msg) => {
               // Error
-                console.log('-----error'+ msg.request.url)
               console.log(msg.request.url);
               console.log(msg.response.data);
               return msg.response.data;

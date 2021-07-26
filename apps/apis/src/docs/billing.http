@@ -1,0 +1,15 @@
+
+
+#### 코스콤
+GET http://localhost:3000/billing/koscom/demand
+
+#### 코스콤
+GET http://localhost:3000/billing/koscom/productDemand
+
+
+
+#### NCC
+GET http://localhost:3000/billing/koscom/getDemandCostList
+
+#### NCC
+GET http://localhost:3000/billing/koscom/productDemand
