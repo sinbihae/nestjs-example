@@ -6,5 +6,6 @@ import { KoscomService } from './koscom.service';
   imports: [HttpModule],
   controllers: [KoscomController],
   providers: [KoscomService],
+  exports: [KoscomService]
 })
 export class KoscomModule {}

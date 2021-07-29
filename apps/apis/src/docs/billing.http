@@ -9,7 +9,7 @@ GET http://localhost:3000/billing/koscom/productDemand
 
 
 #### NCC
-GET http://localhost:3000/billing/koscom/getDemandCostList
+GET http://localhost:3000/billing/ncc/getDemandCostList
 
 #### NCC
-GET http://localhost:3000/billing/koscom/productDemand
+GET http://localhost:3000/billing/ncc/getProductDemandCostList

@@ -21,11 +21,15 @@
     "test:e2e": "jest --config ./apps/apis/test/jest-e2e.json"
   },
   "dependencies": {
+    "@automapper/classes": "^5.0.1",
+    "@automapper/core": "^5.0.1",
+    "@automapper/nestjs": "^5.0.1",
     "@nestjs/common": "^7.6.15",
     "@nestjs/core": "^7.6.15",
     "@nestjs/platform-express": "^7.6.15",
     "@nestjs/typeorm": "^7.1.5",
     "crypto-js": "^4.0.0",
+    "mysql2": "^2.2.5",
     "reflect-metadata": "^0.1.13",
     "rimraf": "^3.0.2",
     "rxjs": "^6.6.6",
