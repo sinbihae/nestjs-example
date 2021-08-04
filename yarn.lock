@@ -70,6 +70,11 @@
   resolved "https://registry.yarnpkg.com/@automapper/nestjs/-/nestjs-5.0.1.tgz#664d2a7d184165fe4e17c0bedb65608ec0e20303"
   integrity sha512-a1ShP8z4HquEr4BmbHq+F/ZI0fJaU7aWmEyyEzYgC3ibwtpQjutKeIMyFssxlGUya65wDlSTFxPzkBKFcIRHxA==
 
+"@automapper/types@^6.0.0":
+  version "6.0.0"
+  resolved "https://registry.yarnpkg.com/@automapper/types/-/types-6.0.0.tgz#c9564c0284c8b212f53217e20c43ca3d7ef53a09"
+  integrity sha512-QME1a6Cc0mXVjZAjP+q8/Pk1VTSd0nVamxfLS16NhBXdx9E/3j5N8yQ20VuywxWB65VNMiZ8sUv0miZ/n8Ar1A==
+
 "@babel/code-frame@7.12.11":
   version "7.12.11"
   resolved "https://registry.yarnpkg.com/@babel/code-frame/-/code-frame-7.12.11.tgz#f4ad435aa263db935b8f10f2c552d23fb716a63f"
@@ -1725,6 +1730,11 @@ cjs-module-lexer@^0.6.0:
   version "0.6.0"
   resolved "https://registry.yarnpkg.com/cjs-module-lexer/-/cjs-module-lexer-0.6.0.tgz#4186fcca0eae175970aee870b9fe2d6cf8d5655f"
   integrity sha512-uc2Vix1frTfnuzxxu1Hp4ktSvM3QaI4oXl4ZUqL1wjTu/BGki9TrCWoqLTg/drR1KwAEarXuRFCG2Svr1GxPFw==
+
+class-transformer@^0.4.0:
+  version "0.4.0"
+  resolved "https://registry.yarnpkg.com/class-transformer/-/class-transformer-0.4.0.tgz#b52144117b423c516afb44cc1c76dbad31c2165b"
+  integrity sha512-ETWD/H2TbWbKEi7m9N4Km5+cw1hNcqJSxlSYhsLsNjQzWWiZIYA1zafxpK9PwVfaZ6AqR5rrjPVUBGESm5tQUA==
 
 class-utils@^0.3.5:
   version "0.3.6"

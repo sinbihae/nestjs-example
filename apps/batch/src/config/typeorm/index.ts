@@ -9,7 +9,7 @@ export class TypeOrmService implements TypeOrmOptionsFactory {
     return {
       ...TYPEORM,
       type: 'mysql',
-      // entities: getMetadataArgsStorage().tables.map((tbl) => tbl.target),  //entity diretory 위치 변경
+      // entities: getMetadataArgsStorage().tables.map((tbl) => tbl.target),  //entity directory 위치 변경
       entities: [DemandCostEntity],
       synchronize: true,
       autoLoadEntities: true,
